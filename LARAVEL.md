@@ -39,3 +39,9 @@ public function destroy($id){}
 # Create Resources
 * The next command will generate a resource to a single item returning form db: php7 artisan make:resource OngResource
 * We also have to create a Resource to handle a collection of items: php7 artisan make:resource OngResourceCollection --collection
+
+# Create Models
+
+# Serve project
+* php artisan serve
+* Now you are able to start to do requests. DONT'T FORGET to add Accept:apllication/json to Headers
